@@ -1,0 +1,34 @@
+YOU CAN FIND THE PROJECT CODE ON THIS REPO LINK- https://github.com/codenostalgia/BlogsManager
+
+Frontend - ReactJs
+Backend - SpringBoot
+Database - H2 database(in memory)
+
+
+backend can be deployed using -
+1) By running code in some ide like IntelliJ, VSCode, Ecclipse
+2) Or by running the Jar file present in location "DeutscheBank\fsbackend\target\fsbackend-0.0.1-SNAPSHOT.jar"
+	using command=> java -jar fsbackend-0.0.1-SNAPSHOT.jar
+	(PS-make sure to point cd at location of jar or give full path)
+
+
+
+frontend can be deployed using -
+1) By running code in some ide like IntelliJ, VSCode, Ecclipse
+   by running commands-
+     a) npm install
+     b) npm start 
+   (PS-make sure to point cd at location of folder "fsfrontend")
+
+
+For Login, fill the following details in login form-
+username- admin
+password- admin
+type- admin
+
+
+database can be accessed using link- http://localhost:8080/h2 (No password needed)
+Frontend can be accessed on- http://localhost:3000
+Backend can be accessed on- http://localhost:8080
+
+
